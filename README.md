@@ -1,2 +1,5 @@
-<img src="http://cdn.bulbagarden.net/upload/thumb/4/4e/072Tentacool.png/500px-072Tentacool.png" width="100" height="100"/>
-# tentacool
+# tako about
+
+Tako's prime directive is trivial -- deliver the best asset references to your front end applications as soon as possible.
+
+Include Tako Client in your front-end application to auto discover your Apps source of UX/UI truthiness, analytics, asset CDN's and all those other elses.
