@@ -1,5 +1,5 @@
 {
-  "name": "tentaku",
+  "name": "TakoKun",
   "version": "0.0.1",
   "description": "An asset discovery service and tag manager for UI's",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/mjpearson/tentaku/issues"
   },
-  "homepage": "https://github.com/mjpearson/tentaku#readme"
+  "homepage": "https://github.com/mjpearson/tentaku#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.3.3",
+    "mockery": "^1.4.0",
+    "node-mocks-http": "^1.5.1",
+    "sinon": "^1.17.2"
+  }
 }
