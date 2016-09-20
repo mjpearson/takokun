@@ -27,12 +27,20 @@ describe('TakoKun', function() {
 
   });
 
+  it('Should throw an exception if no application name', function() {
+
+  });
+
+  it('Should ', function() {
+
+  });
+
   // --------------- REQ HANDLING
   it('Should respond with correct options', function() {
 
   });
 
-  it('Should respond with options with md5 signature hash', function() {
+  it('Should decorate tag payload with md5 signature hash', function() {
 
   });
 

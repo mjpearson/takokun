@@ -30,5 +30,8 @@
     "mockery": "^1.4.0",
     "node-mocks-http": "^1.5.1",
     "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "crypto": "0.0.3"
   }
 }
