@@ -1,7 +1,7 @@
 {
   "name": "TakoKun",
   "version": "0.0.1",
-  "description": "An asset discovery service and tag manager for UI's",
+  "description": "An asset discovery middleware for UI's",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjpearson/tentaku.git"
+    "url": "git+https://github.com/mjpearson/takokun.git"
   },
   "keywords": [
     "tag",
@@ -21,9 +21,9 @@
   "author": "Michael Pearson <github@x0rz.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mjpearson/tentaku/issues"
+    "url": "https://github.com/mjpearson/takokun/issues"
   },
-  "homepage": "https://github.com/mjpearson/tentaku#readme",
+  "homepage": "https://github.com/mjpearson/takokun#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.3.3",
