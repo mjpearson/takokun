@@ -1,3 +1,4 @@
+<img src="public/tako_logo.png">
 # Tako!
 
 Tako is an express/koa middleware who's prime directive is simple -- deliver the best asset references to your front end applications as fast as possible.
