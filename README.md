@@ -8,7 +8,7 @@ Include Tako Client in your front-end application to auto discover your Apps sou
 
 ## But Why?
 
-Tako's useful if you have a suite of many UI's with shared assets and your problem is trying to keep them in sync.
+Tako's useful if you have a suite of many UI's with shared assets and your problem is trying to keep them in sync.  Out of the box, Tako uses file based configuration so that it plays nicely with change management processes (think peer reviewed pull requests), however Tako is pluggable so you can override configuration loading as you like as long as you return an object the config compiler understands.
 
 ### Usage
 
@@ -30,4 +30,4 @@ app.listen(3000, function () {
 });
 ```
 
-### Config
+### Config Spec
