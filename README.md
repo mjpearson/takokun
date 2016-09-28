@@ -30,4 +30,9 @@ app.listen(3000, function () {
 });
 ```
 
+### Constructor Options
+
+* **logger** {function(req, message, level)} custom logger
+* **loader** {function} should return a Promise, on success this promise will resolve with an object meeting the format of the Config Spec
+
 ### Config Spec
