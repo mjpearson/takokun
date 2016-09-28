@@ -32,7 +32,11 @@ app.listen(3000, function () {
 
 ### Constructor Options
 
-* **logger** {function(req, message, level)} custom logger
+* **cfgPath** {string} configuration file path
 * **loader** {function} should return a Promise, on success this promise will resolve with an object meeting the format of the Config Spec
+* **logger** {function(req, message, level)} custom logger
+
+Either *cfgPath* or *loader* options must be provided, otherwise Tako will look for a configuration in its own installation base directory.
+
 
 ### Config Spec
