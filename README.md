@@ -1,10 +1,14 @@
-<img style="display: block; margin-left: auto; margin-right: auto" src="public/tako_logo.png">
+<img src="public/tako_logo.png">
 
 # Tako!
 
 Tako is an express/koa middleware who's prime directive is simple -- deliver the best asset references to your front end applications as fast as possible.
 
 Include Tako Client in your front-end application to auto discover your Apps source of UX/UI truthiness, analytics, asset CDN's and whatever else.
+
+## But Why?
+
+Tako's useful if you have a suite of many UI's with shared assets and your problem is trying to keep them in sync.
 
 ### Usage
 
